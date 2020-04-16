@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta charset="utf-8" />
+
+    <!-- CSS from Bootsrap and my stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>About Me - Journey2Med</title>
+</head>
+
+<body class="advice-page">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <h4 class="navbar-brand"><img src="img/caduceus.png" width="20" height="20" /> Journey2Med</h4>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///Users/obiwamuo/Desktop/Projects/CS50/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///Users/obiwamuo/Desktop/Projects/CS50/about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Users/obiwamuo/Desktop/Projects/CS50/timeline.html">Application
+                        Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link live_page"
+                        href="file:///Users/obiwamuo/Desktop/Projects/CS50/advice.html">Advice</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="marquee text-center">
+        <h1 class="header text-uppercase font-weight-bold font-italic" style="padding: 1rem 0;">
+            My Top 10 Tips
+        </h1>
+    </div>
+
+    <!-- Tips -->
+    <!-- Can only have one ID per element -->
+    <div class="container-fluid" style="padding-top: 2rem;">
+        <div class="row">
+            <ol style="width: 100%; padding: 0 2.5rem 0 2.5rem;" class="ordered-list">
+                <li class="advice-element" id="uno">
+                    <h3 class="tip">Timing is Everything</h3>
+                    <h6 class="accordion" id="tip1" onclick="moreInfo('tip1')">[More]</h6>
+
+                    <p style="display: none">
+                        As you may or may not know, the medical school application process is a rolling admissions
+                        process. From getting secondaries to complete, receiving interview applications, and finally
+                        gaining an acceptance, all are heavily influenced by the timing of your application. While
+                        submitting the primary applicaiton in late July does not necessarily mean you will fail to
+                        matriculate, it will put you at a disadvantage compared to your peers. This is why it is
+                        heavily advised to submit your primary application withing the first week of June and
+                        subsequently submit your secondary applications as soon as possible. That said, timing also
+                        includes allocating time regarding letters of reccomendation and working on your personal
+                        statement. Remember, professors are constantly being asked to write letters of
+                        reccomendation so I advise that you ask between January-February.
+                    </p>
+                </li>
+
+                <li class="advice-element">
+                    <h3 class="tip">Quality > Quantity</h3>
+                    <h6 class="accordion" id="tip2" onclick="moreInfo('tip2')">[More]</h6>
+
+                    <p style="display: none">
+                        From maintaining a great GPA, doing research, volunteering (both clinical and
+                        non-clincical), shadowing, scoring a high MCAT score, to also being expected have their own
+                        interesting and personal lives, it is no doubt that medical schools ask a lot of their
+                        applicants. Reflecting upon the rat race of getting into medical, some may lose themselves
+                        in trying to seemingly check the metaphorical boxes of research, volunteering, shadowing
+                        etc. While I do admit that all are important and play their respective role in measuring the
+                        desire one may have when it comes to getting into medical school, I advise that you focus on
+                        the quality of your extracurriculars rather than the sheer quantity. This not only shows
+                        dedication in your respective interests but it also helps when listing your top formative
+                        experiences in the AMCAS primary application. For me, one formative extracurricular was
+                        track and field. While not directly related to medicine, track and field taught me immensly
+                        in regards to discipline, teamwork and self responsibility. The sport of track and field has
+                        undoubtly made me the person I am today and will shape me into the physician I strive to be
+                        as well.
+                    </p>
+                </li>
+                <li class="advice-element">
+                    <h3 class="tip">Your Major Doesn't Matter</h3>
+                    <h6 class="accordion" id="tip3" onclick="moreInfo('tip3')">[More]</h6>
+
+                    <p style="display: none">
+                        Unfortunately, some people still think that your major plays a big role in helping you get
+                        into medical school. That said, some schools even have a "pre-med/pre-clinical" major. Dont
+                        feel obligated to choose these majors simply because you want to be a doctor. If you do not
+                        intend on doing a
+                        <a href="https://students-residents.aamc.org/content/article/considering-postbaccalaureate-premedical-program/"
+                            target="blank">
+                            post-bacc</a>, all that matters is that you finish the pre-med prerequisites befrore
+                        graduating. Schools
+                        will not look at you differently if you have a non-science major. In fact, choosing a
+                        "non-traditional" major may even make the school more interested in you as a candidate.
+                    </p>
+                </li>
+                <li class="advice-element">
+                    <h3 class="tip">Tailor an Appropriate School List</h3>
+                    <h6 class="accordion" id="tip4" onclick="moreInfo('tip4')">[More]</h6>
+
+                    <p style="display: none">
+                        Reflecting upon the application process, one thing I greatly underestimated was how
+                        expensive the of it was. For example, if one was to apply to 12 schools (which is four less
+                        than the average number schools applied to), they should expect to pay about $1800 on the
+                        primary and secondary applications alone. These costs don't even include flights and hotels
+                        for interviews which further contributes to the hole you can find yourself in. This is why
+                        it is imperative you develop an appropriate school list based on your stats, experiences,
+                        interests, etc. One thing that I highly encourage you to look into is the MSAR. This book
+                        (while $28) contains data on all US medical schools such as the average GPA and MCAT score
+                        of matriculants as well as data on state/out of state matriculants. Please dont be that
+                        person that applies to a school only to find out they dont accept out of state applicants.
+                        The MSAR will help you know this!
+                    </p>
+                </li>
+                <li class="advice-element">
+                    <h3 class="tip">The MCAT is Rough, Dont Underestimate it!</h3>
+                    <h6 class="accordion" id="tip5" onclick="moreInfo('tip5')">[More]</h6>
+
+                    <p style="display: none">
+                        From my personal experience, the MCAT has by far been the hardest exam that I have taken in
+                        my life. Given the scope of content needed to cover as well as the implications the exam
+                        has, it is no wonder that some people spend well up to 5 months in advance studying for the
+                        exam. In preparing for the MCAT the first thing you should do is figure out your test date
+                        and schedule backwards from there, allocating sufficient studying time. Remember, it is a
+                        marathon and not a sprint, so don't oversell yourself thinking that you won't burn out
+                        trying to do 12 hour sessions over the course of 20 days.
+                        <br />
+                        <br />
+                        In terms of actually studying for the test, I regret to inform you that this is on you. One
+                        piece of advice I will give however is to not focus on the content.The only way to improve
+                        upon your score is to do actual problems and try and learn how the test is written. Exam
+                        prep wise, I find them all the same. While I personally used Kaplan, I have had friends use
+                        the Princeton Review, Examkrackers, and the Berkeley Review and still find their own
+                        success.
+                    </p>
+                </li>
+                <li class="advice-element">
+                    <h3 class="tip">Make Your Personal Statment... Personal</h3>
+                    <h6 class="accordion" id="tip6" onclick="moreInfo('tip6')">[More]</h6>
+
+                    <p style="display: none">
+                        Why do YOU want to be a doctor? This is the question that needs to be answered in your
+                        personal statement. In spite of what may seem as a straight forward question, people still
+                        feel that they need to answer the question with the aim to say what they believe admissions
+                        committees want to hear. "I like to help people", "I like science", sprinkled in with the
+                        desire to "help the underserved" are oftentimes said. The thing however, is that there are
+                        many professions where one can do these same exact things. Writing a personal statement is
+                        difficult and takes an immense ammount of introspection upon your life and what you have
+                        done that has prepared you for a career in medicine. That said, if your love of dance and
+                        cooking helped shaped your desire to be a physician more than that medical mission you went
+                        on, be honest about it. Such genuineness will only make your personal statment more genuine,
+                        making you a more interesting applicant.
+                    </p>
+                </li>
+                <li class="advice-element">
+                    <h3 class="tip">Apply When You're Ready</h3>
+                    <h6 class="accordion" id="tip7" onclick="moreInfo('tip7')">[More]</h6>
+
+                    <p style="display: none">
+                        Sometimes, people may feel pressured into applying before they were ready. Admittedly, my
+                        parents weren't particularly excited when I told them I planned on taking a gap year so
+                        imagine what was going through my head when I was about to tell them I would be taking a
+                        second year off. At the end of the day, medical school is not going anywhere. In fact, the
+                        average age of matriculants is 24. As expensive and rigorous the process is, one should
+                        strive to only have to go through it once. Despite the pressure of family members or seeing
+                        pictures of your friends from their white coat ceremonies, one of the biggest pieces of
+                        advice I can give is to apply when YOU feel ready.
+                    </p>
+                </li>
+                <li class="advice-element">
+                    <h3 class="tip">Don't Go Caribbean</h3>
+                    <h6 class="accordion" id="tip8" onclick="moreInfo('tip8')">[More]</h6>
+
+                    <div style="display: none">
+                        <p>
+                            This may be my most controversial piece of advice, but if you even have a glimpse of
+                            wanting to specialize in the United States, do not apply to a Caribbean medical school.
+                            Admittedly, Caribbean medical schools are easier to get into compared to US medical
+                            schools. This however, is oftentimes at the cost of not having the freedom to pursue a
+                            specialty of interst as well as being unable to secure a residency at some hospitals. In
+                            addition to eing for profit, Caribbean medical schools also have certain rules that are
+                            conducive to high rates of student attrition leading to some individuals being kicked
+                            out while still having to foot high cost student loans. While having an MD may be seen
+                            as sexier than a DO to some, this should not be at the expense of attending a Caribbean
+                            medical school. For more information, you can read this blog
+                            <a href="https://milliondollarmistake.wordpress.com/" target="blank"> here</a>. I have
+                            also included a pretty interesting video below.
+                        </p>
+                        <div class="video" style="text-align: center;">
+                            <iframe style="padding-bottom: 1.5rem;" width="560" height="315"
+                                src="https://www.youtube-nocookie.com/embed/xNEiev66VP8?controls=0" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </li>
+                <li class="advice-element">
+                    <h3 class="tip">You're Going to Need Help, Don't Hesitate to Ask</h3>
+                    <h6 class="accordion" id="tip9" onclick="moreInfo('tip9')">[More]</h6>
+
+                    <p style="display: none">
+                        As independent as you may be, the application process is something that can not be done
+                        alone. Heck, the act of asking for a letter of reccomendation or the opportunity to shadow
+                        is a request for help in of themselves. That said, if you're one that struggles with asking
+                        for help put all your pride aside and learn how to do so. One great place to start is with
+                        your peers whom are already in medical school. Having been through the gautlet you'll be
+                        suprised to find how excited they are to help their friends also find success in their
+                        respective journey towards medicine. Your friends want to see you win!
+                        <br />
+                        <br />
+                        Requests for help don't even need to be in person alone. Living in the 21st century, you
+                        have the incredible resource that is the internet. In my own personal journey, resources
+                        such as Reddit (<a href="https://www.reddit.com/r/premed" target="blank">r/PreMed</a> and
+                        <a href="https://www.reddit.com/r/Mcat" target="blank">r/MCAT</a>) and
+                        <a href="https://www.studentdoctor.net" target="blank">StudentDoctorNetwork</a> (SDN) proved
+                        very helpful when it came to advice on the MCAT, essays, and interviews. Please be advised
+                        though, SDN can be seen as a bit toxic so use at your own risk.
+                    </p>
+                </li>
+                <li class="advice-element" id="diez">
+                    <h3 class="tip">Pay it Forward</h3>
+                    <h6 class="accordion ten" id="tip10" onclick="moreInfo('tip10')">[More]</h6>
+                    <p style="display: none; ">
+                        Applying to medical school is already a difficult enough process. As hopeful physicians, we
+                        work dilligently towards a career dedicated to the service of others. This doesn't
+                        necessarily mean however that you have to wait until you are a doctor before you can be of
+                        service to others. Pay it forward! From my experience on this journey, I will never forget
+                        the many individuals that have helped me along the way. From friends that looked over my
+                        personal statment and secondaries, to those that let me crash at their place when I was on
+                        the interview trail, I am eternally greatful to them all. This is why I made this website, I
+                        want to help those achieve their goals and hope to continue doing so even as a medical
+                        student.
+                    </p>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-right">
+            <p>&copy; 2020</p>
+        </div>
+    </footer>
+
+    <!-- My function-->
+    <script type="text/javascript" src="./javascript/button.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
