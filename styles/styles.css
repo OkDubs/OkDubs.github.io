@@ -1,0 +1,468 @@
+.home-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(../img/medschool.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+/*
+* === Navigation Bar ===
+*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+}
+
+.navbar-brand {
+    height: 2rem;
+}
+
+/* Styles elements that have class of nav-link within nabvar-nav within navbar-dark */
+.navbar-dark .navbar-nav .nav-link {
+    color: dark;
+}
+
+/*Active navlink */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: darkgoldenrod;
+}
+
+.navbar-dark .navbar-nav .live_page {
+    color: darkgoldenrod;
+}
+
+/*
+* === Home Page ===
+*/
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    color: lightgrey;
+    z-index: 1;
+}
+
+.caption h1 {
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 0.1rem 0.1rem 0.01rem black;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.caption h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-shadow: 0.08rem 0.08rem 0.1rem black;
+    padding-bottom: 2em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+/* Button */
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    color: lightgrey;
+    text-shadow: 0.08rem 0.08rem 0.02rem black;
+    border-color: lightgrey;
+    box-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+.btn-lg:hover {
+    color: lightgrey;
+    background-color: rgba(232, 232, 232, 0.7);
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    border-color: lightgrey;
+}
+
+/*
+* === About Me ===
+*/
+
+.about-page {
+    background: lightgray;
+}
+
+.marquee {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(../img/medschool.png) no-repeat center center fixed;
+    background-size: cover;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding: 1rem 0;
+}
+
+.header {
+    text-shadow: 0.2rem 0.2rem black;
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+
+.paragraph {
+    padding-top: 1rem;
+    font-size: x-large;
+    padding-left: 2.5rem;
+}
+
+.aboutpic {
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-top: 1.5rem;
+    /*Do margin as padding messes up the rounding*/
+}
+
+.pic_captions {
+    font-size: medium;
+}
+
+/*
+* === Timeline ===
+*/
+
+.timeline-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(../img/medschool.png) no-repeat center fixed;
+    background-size: cover;
+}
+
+.Timeline {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.Timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: darkgoldenrod;
+}
+
+.Timeline ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Timeline ul li {
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.Timeline ul li:nth-child(odd) {
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.Timeline ul li:nth-child(even) {
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+/* Adjusting the text in the time */
+.time {
+    text-shadow: 0.08rem 0.08rem 0.15rem black;
+}
+
+.content {
+    padding-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background: darkgoldenrod;
+    text-align: justify;
+    text-shadow: 0.09rem 0.05rem black;
+    font-size: large;
+}
+
+.no-shadow {
+    text-shadow: 0.01 0.01 black;
+}
+
+.content h3 {
+    text-decoration: underline;
+}
+
+.Timeline ul li:nth-child(odd)::before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    right: -11px;
+    width: 20px;
+    height: 20px;
+    background: #c23941;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+
+.Timeline ul li:nth-child(even)::before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: -9px;
+    width: 20px;
+    height: 20px;
+    background: #c23941;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+}
+
+.Timeline ul li h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: white;
+}
+
+.Timeline ul li p {
+    margin: 5px 0 0;
+    padding: 0;
+}
+
+.Timeline ul li h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.Timeline ul li:nth-child(odd) .time {
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: grey;
+    color: #fff;
+    border-radius: 18px;
+}
+
+.Timeline ul li:nth-child(even) .time {
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: grey;
+    color: #fff;
+    border-radius: 18px;
+}
+
+#lengthy-left {
+    position: absolute;
+    top: 12px;
+    left: -270px;
+    margin: 0;
+    padding: 8px 16px;
+    background: grey;
+    color: #fff;
+    border-radius: 18px;
+}
+
+#lengthy-right {
+    position: absolute;
+    top: 12px;
+    right: -250px;
+    margin: 0;
+    padding: 8px 16px;
+    background: grey;
+    color: #fff;
+    border-radius: 18px;
+}
+
+#long-right {
+    position: absolute;
+    top: 12px;
+    right: -200px;
+    margin: 0;
+    padding: 8px 16px;
+    background: grey;
+    color: #fff;
+    border-radius: 18px;
+}
+
+/* Timeline for mobile*/
+@media (max-width: 780px) {
+    .Timeline {
+        width: 100%;
+    }
+
+    .Timeline::before {
+        left: 4%;
+    }
+
+    .Timeline ul li:nth-child(odd),
+    .Timeline ul li:nth-child(even) {
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    /*Red dots */
+    .Timeline ul li:nth-child(odd)::before,
+    .Timeline ul li:nth-child(even)::before {
+        left: 2.2%;
+        top: -10px;
+    }
+
+    /*Time stamps*/
+    .Timeline ul li:nth-child(odd) .time,
+    .Timeline ul li:nth-child(even) .time,
+    #lengthy-right,
+    #lengthy-left,
+    #long-right {
+        left: 9%;
+        right: inherit;
+        top: -20px;
+        padding: 50 0 50 0;
+    }
+}
+
+/*
+* === Advice ===
+*/
+
+.advice-page {
+    background: lightgray;
+}
+
+.advice-element {
+    padding-bottom: 1.5rem;
+    margin-left: 30px;
+}
+
+/*li.advice-element::marker{
+  font-size: 1.6em;
+  font-weight: 500;
+}*/
+
+ol.ordered-list {
+    list-style-type: none;
+    counter-reset: counter;
+}
+
+.advice-element h3::before {
+    content: counter(counter);
+    counter-increment: counter;
+    color: darkgoldenrod;
+    font-style: italic;
+    margin-right: 15px;
+    margin-left: -47px;
+    font-size: 45px;
+}
+
+#uno h3::before {
+    content: counter(counter);
+    counter-increment: counter;
+    color: darkgoldenrod;
+    margin-right: 15px;
+    margin-left: -40px;
+    font-size: 45px;
+}
+
+#diez h3::before {
+    content: counter(counter);
+    counter-increment: counter;
+    color: darkgoldenrod;
+    margin-right: 15px;
+    margin-left: -67px;
+    font-size: 45px;
+}
+
+.advice-element h3 {
+    font-weight: 650;
+    margin-right: -20px;
+}
+
+.advice-element p {
+    font-size: 20px;
+}
+
+/* More info button*/
+.more-info {
+    margin-top: 30px;
+    margin-left: -6.5rem;
+}
+
+.tip {
+    display: inline;
+}
+
+.button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.accordion {
+    display: inline;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.ten {
+    padding-bottom: 15rem;
+}
+
+@media (max-width: 700px) {
+    h6.accordion::before {
+        content: "\A";
+        white-space: pre;
+    }
+}
+
+/*Embedded Video*/
+@media (max-width: 630px) {
+    .video {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.accordion:hover {
+    color: darkgoldenrod;
+}
+
+/*
+* === Footer ===
+*/
+.footer {
+    background: rgb(52, 58, 64);
+    height: 20px;
+    bottom: 0em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.footer p {
+    color: lightgrey;
+    font-size: 0.7rem;
+    padding-top: 2px;
+    padding-left: 20px;
+}
